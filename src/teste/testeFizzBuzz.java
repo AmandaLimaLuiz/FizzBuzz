@@ -6,7 +6,7 @@ public class testeFizzBuzz {
 		int n;
 		
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Digite o valor de n: ");
+		System.out.println("Digite o numero de vezes que deseja consultar: ");
 		n =  teclado.nextInt();
 		
 		for (int i = 1; i <= n; i++) {
